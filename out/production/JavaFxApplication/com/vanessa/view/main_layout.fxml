@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="242.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vanessa.controller.DemoMainController">
+   <children>
+      <Label layoutX="37.0" layoutY="50.0" text="Input" />
+      <TextField fx:id="txtInput" layoutX="131.0" layoutY="44.0" prefHeight="39.0" prefWidth="323.0" />
+      <Button layoutX="131.0" layoutY="103.0" mnemonicParsing="false" onAction="#sendQueryAction" text="Send" />
+      <Label layoutX="37.0" layoutY="192.0" text="Output" />
+      <Label fx:id="lblOutput" layoutX="143.0" layoutY="192.0" text="-" />
+   </children>
+</AnchorPane>
